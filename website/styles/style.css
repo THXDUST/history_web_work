@@ -1,0 +1,41 @@
+body {
+  font-family: monospace;
+  background-color: cadetblue;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#divan {
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+  border: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#start a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: 1px black solid;
+  width: 75px;
+  border-radius: 10px;
+  height: 25px;
+  background-color: greenyellow;
+}
